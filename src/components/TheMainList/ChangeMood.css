@@ -1,0 +1,91 @@
+.Main_lightMood {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.Main_lightMood>img {
+    width: 100%;
+    height: 180px;
+}
+
+.MainList_pt2_1LightMood {
+    height: 41px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 28px;
+}
+
+.MainList_pt2_1LightMood p {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    border: #25273c;
+    padding: 0;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+
+.MainList_pt2_1LightMood p:hover {
+    color: #340fce;
+}
+
+.MainList_pt2_1LightMood input {
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid black 1px;
+    height: 71%;
+    width: 70%;
+    color: black;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+
+.MainList_pt2_2_tasksLightMood {
+    height: 43px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+    background-color: white;
+}
+
+.MainList_pt2_2_tasksLightMood p {
+    color: black;
+}
+
+.MainList_pt2_2_tasksLightMood img {
+    cursor: pointer;
+}
+
+.MainList_pt2_3LightMood {
+    color: black;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+    background-color: white;
+}
+
+.MainList_pt2_3LightMood p {
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+
+.MainList_pt2_3LightMood p:hover {
+    color: #6546e9;
+}

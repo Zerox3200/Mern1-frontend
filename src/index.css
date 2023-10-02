@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#root {
+  height: 610px;
+}
+
+@media screen and (max-width:767px) {
+  #root {
+    height: 917px;
+  }
+}

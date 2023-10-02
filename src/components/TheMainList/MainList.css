@@ -1,0 +1,167 @@
+.MainList {
+    width: 400px;
+    height: 428px;
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-shadow: 1px 1px 10px #00000059;
+}
+
+.MainList_pt1 {
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.MainList_pt1 p {
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+    letter-spacing: 7px;
+}
+
+.MainList_pt1 img {
+    height: 21px;
+    cursor: pointer;
+}
+
+.MainList_pt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.MainList_pt2_1 {
+    height: 41px;
+    background-color: #25273c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 28px;
+    font-weight: lighter;
+}
+
+.MainList_pt2_1 p {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    border: #25273c;
+    padding: 0;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+
+.MainList_pt2_1 p:hover {
+    color: #340fce;
+}
+
+.MainList_pt2_1 input {
+    background-color: #25273c;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid black 1px;
+    height: 71%;
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+
+.MainList_pt2_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainList_pt2_2_tasks {
+    height: 43px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #25273c;
+    padding: 0 17px;
+}
+
+.MainList_pt2_2_tasks_1_checkbox {
+    background-color: white;
+    background-image: url(icon-check.svg), linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: #25273c solid 1px;
+    display: flex;
+    cursor: pointer;
+}
+
+.MainList_pt2_2_tasks_1_checkbox_notChecked {
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: #25273c solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.MainList_pt2_2_tasks_1_checkbox img {
+    cursor: default !important;
+}
+
+.MainList_pt2_2_tasks p {
+    font-size: 15px;
+}
+
+.MainList_pt2_2_tasks img {
+    cursor: pointer;
+}
+
+.MainList_pt2_2_tasks_1 {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.MainList_pt2_3 {
+    color: white;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 17px;
+    background-color: #25273c;
+}
+
+.MainList_pt2_3 p {
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+
+.MainList_pt2_3 p:hover {
+    color: #6546e9;
+}
+
+.Marked {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:767px) {
+    .MainList {
+        padding: 0px 11px;
+    }
+}
