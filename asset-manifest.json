@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Mern1-frontend/static/css/main.f040c8f3.css",
+    "main.js": "/Mern1-frontend/static/js/main.f7afa97a.js",
+    "static/js/787.97a945da.chunk.js": "/Mern1-frontend/static/js/787.97a945da.chunk.js",
+    "static/media/bg-desktop-light.jpg": "/Mern1-frontend/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "static/media/bg-desktop-dark.jpg": "/Mern1-frontend/static/media/bg-desktop-dark.73e47dbb723ebc772ef0.jpg",
+    "index.html": "/Mern1-frontend/index.html",
+    "static/media/icon-sun.svg": "/Mern1-frontend/static/media/icon-sun.910b1f9a23741afc341e95653a51f14f.svg",
+    "static/media/icon-moon.svg": "/Mern1-frontend/static/media/icon-moon.6c03114b495d05f4380b3c544d9afe2a.svg",
+    "static/media/icon-cross.svg": "/Mern1-frontend/static/media/icon-cross.6ee81d30b75cab19d6f7314624fcc4d6.svg",
+    "static/media/icon-check.svg": "/Mern1-frontend/static/media/icon-check.a8fb15d0278c8e312df5.svg",
+    "main.f040c8f3.css.map": "/Mern1-frontend/static/css/main.f040c8f3.css.map",
+    "main.f7afa97a.js.map": "/Mern1-frontend/static/js/main.f7afa97a.js.map",
+    "787.97a945da.chunk.js.map": "/Mern1-frontend/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f040c8f3.css",
+    "static/js/main.f7afa97a.js"
+  ]
+}
